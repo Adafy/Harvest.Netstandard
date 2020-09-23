@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <IsPackable>true</IsPackable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Harvest API client for .NET Standard.</Description>
+    <PackageDescription>Harvest API client for .NET Standard.</PackageDescription>
+    <PackageId>Adafy.Harvest.Netstandard</PackageId>
+    <Product>Adafy.Harvest.Netstandard</Product>
+    <AssemblyName>Adafy.Harvest.Netstandard</AssemblyName>
+    <PackageTags>harvest;adafy;netstandard</PackageTags>
+    <Title>Harvest API client for .NET Standard</Title>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="RestSharp" Version="106.2.1" />
+    <PackageReference Include="CsvHelper" Version="6.1.1" />
+  </ItemGroup>
+
+</Project>

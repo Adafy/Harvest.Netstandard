@@ -1,14 +1,14 @@
 <Project>
   
   <PropertyGroup>
-    <Authors>Weik.io</Authors>
-    <Company>Weik.io</Company>
+    <Authors>Adafy Oy</Authors>
+    <Company>Adafy Oy</Company>
     <PackageIcon>logo_256.png</PackageIcon>
     <MinVerMinimumMajorMinor>1.0</MinVerMinimumMajorMinor>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <RepositoryUrl>https://github.com/weikio/Weikio.EventFramework</RepositoryUrl>
-    <PackageProjectUrl>https://www.weik.io</PackageProjectUrl>
-    <Copyright>©2020 Weik.io</Copyright>
+    <RepositoryUrl>https://github.com/Adafy/Harvest.Netstandard</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/Adafy/Harvest.Netstandard</PackageProjectUrl>
+    <Copyright>©2020 Adafy Oy</Copyright>
     <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   

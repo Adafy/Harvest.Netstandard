@@ -1,26 +1,25 @@
-# Weik.io Template
+# Harvest API Client for .NET Standard
+
+[![NuGet Version](https://img.shields.io/nuget/v/Adafy.Harvest.Netstandard.svg?style=flat&label=Adafy.Harvest.Netstandard)](https://www.nuget.org/packages/Adafy.Harvest.Netstandard/)
  
-Template for Weik.io's .NET Core projects. Contains the following constructs:
+This is a .NET Standard port of the [Harvest.Net](https://github.com/ithielnor/harvest.net).
 
-* Coding conventions in the format of .editorconfig.
-* Folder structure
-* Global.json
-* Git ignore
-
-This template can be used as a starting point for all the Weik.io projects.
+Some parts of the code is from [lprichar/harvest.net](https://github.com/lprichar/harvest.net)
 
 ## Usage
 
-The template can be used when creating a new repository in GitHub:
+Create a client object:
 
-![Creating a new repository using the template](2020-08-10-13-30-31.png)
+````
+    HarvestRestClient client = new HarvestRestClient("example", "myusername", "mypassword");
+````
 
-Select Weikio/Template from the Repository teamplte dropdown.
+Harvest API end points are converted to PascalCase. So `example.harvestapp.com/account/who_am_i` becomes
 
-Alternatively a new repository with this template can be created from https://github.com/weikio/Template:
-
-![Creating a new repository from the template's repository](2020-08-10-13-34-18.png)
-
+````
+    Account myAccount = client.WhoAmI()
+````	
+	
 ## License
 
-This template is MIT licensed.
+This library is MIT licensed.
