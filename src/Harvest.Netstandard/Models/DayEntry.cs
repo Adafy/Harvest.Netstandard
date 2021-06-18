@@ -95,5 +95,15 @@ namespace Adafy.Harvest.Netstandard.Models
         /// Only supplied by the Daily resource.
         /// </summary>
         public string Project { get; set; }
+        
+        /// <summary>
+        /// True if the time entry's has been marked as billable.
+        /// </summary>
+        public bool Billable { get; set; }
+        
+        /// <summary>
+        /// Billable rate.
+        /// </summary>
+        public decimal? BillableRate { get; set; }
     }
 }
